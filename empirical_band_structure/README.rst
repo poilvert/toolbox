@@ -23,6 +23,6 @@ The set of programs expect pseudopotential files in the following format::
 
 where `m`, `n` and `p` are integer numbers (positive, negative of zero). `V_G.real` and `V_G.imag` are respectively the real part and imaginart part of the Fourier coefficient of the pseudopotential attached to the reciprocal-space vector `G`. As such we assume that the real-space potential is given by::
 
-    V(x) = Sum[V_G * exp(iG.x]
+    V(x) = Sum[V_G * exp(iG.x)]
 
 It is up to the user to make sure that the Fourier coefficients are expressed in *Hartree* atomic units.

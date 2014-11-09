@@ -7,7 +7,7 @@ from crystal_utilities import get_fcc_canonical_k_path
 AngtoBohr = 1. / 0.529177
 
 crystal_type = 'fcc'
-pseudopotential = 'pseudopotentials/Free_electrons.dat'
+pseudopotential = 'pseudopotentials/Silicon.dat'
 lattice_parameter = 5.43
 G_norm_cutoff = 2.8
 n_kpts = 300
